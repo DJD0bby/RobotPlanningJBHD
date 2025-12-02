@@ -7,6 +7,17 @@
 
 #define bdrate 115200               /* 115200 baud */
 
+#define FontFile "SingleStrokeFont.txt"
+#define TextFile "test.txt"
+
+#define MaxChars 256
+
+#define MaxHeight 10.0f
+#define MinHeight 4.0f
+#define LineGap 5.0f
+#define MaxWidth 100.0f
+
+
 void SendCommands (char *buffer );
 
 int main()
